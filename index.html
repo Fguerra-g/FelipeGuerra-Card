@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Felipe Guerra</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            height: 100dvh;
+            background-image: url("back2.jpg");
+            background-size: cover;
+            background-position: center;
+            color: white;
+            font-family: monospace;
+        }
+
+        main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            max-width: 320px;
+            padding: 16px;
+            border-radius: 16px;
+            box-shadow: 0 4px 8px 0 rgb(255, 255, 0.5);
+            background-color: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(6px);
+            text-align: center;
+        }
+
+        img{
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px 0 #ffff01;
+
+        }
+        
+        h1{
+            margin: 0;
+            font-size: 20px;
+        }
+
+        h2{
+            margin: 0;
+            color: lightgray;
+            font-size: 18px;
+        }
+
+        p{
+        
+            margin: 0;
+            font-size: 14px;
+            padding: 5px;
+        }
+
+        ul{
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .badge{
+            padding: 4px;
+            border-radius: 8px;
+            background-color: #ffff01;
+            color: black;
+            font-weight: 700;
+            transition: box-shadow 0.25s, filter 0.25s;
+
+            &:hover{
+                box-shadow: 0 2px 4px 0 #ffff01;
+                filter: brightness(1.25);
+            }
+        }
+
+        .link{
+            color: white;
+            font-weight: 700;
+            transition: box-color 0.25s;
+
+            &:hover{
+            color:#23b5e8; ;
+            }
+        }
+
+    </style>
+  </head>
+  <body>
+    <main>
+      <img
+        src="1698956441888.jfif"
+        alt="Felipe Guerra"
+        width="224px"
+        height="224px"
+      />
+      <h1>Felipe Guerra <sup>25</sup></h1>
+      <h2>Desarrollador Outsystems</h2>
+      <p>
+        Soy Desarrollador de OutSystems con 2,5 años de experiencia, me
+        considero un Apasionado de la tecnología, autodidacta, un Líder innato y
+        crítico. Busco seguir aprendiendo y cumpliendo mi smetas, estoy en busca
+        de nuevas oportunidades y aportar lo que he ido aprendiendo.
+      </p>
+      <ul>
+        <li class="badge">🌐Outsystems🌐</li>
+        <li class="badge">🤖JavaScript🤖</li>
+        <li class="badge">🌐Html🌐</li>
+        <li class="badge">🎨CSS🎨</li>
+        <li class="badge">🔎Postman🔎</li>
+        <li class="badge">🤖Python🤖</li>
+      </ul>
+      <ul>
+        <li>
+            <a class="link" href="https://github.com/Fguerra-g">Github</a>
+        </li>
+        <li>
+            <a class="link" href="https://www.linkedin.com/in/felipe-guerra-galdames/">Linkedin</a>
+        </li>
+      </ul>
+    </main>
+  </body>
+</html>
